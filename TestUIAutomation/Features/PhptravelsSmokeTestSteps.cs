@@ -42,7 +42,21 @@ namespace TestUIAutomation.Features
 
             driver.FindElement(By.XPath("//*[@id='loginfrm']/button")).Click();
 
+           
+
+            
+
         }
+
+        [Then(@"i should see a error on the screen")]
+        public void ThenIShouldSeeAErrorOnTheScreen()
+        {
+            var errorText = driver.FindElement(By.XPath("//*[@id='loginfrm']/div[1]/div[2]/div")).Text;
+            Assert.IsTrue(errorText == "Invalid Email or Password", "Expected value is : Error but Actual value is {0}", errorText);
+        }
+
+
+
         [When(@"click on Hotels icon")]
         public void WhenClickOnHotelsIcon()
         {
