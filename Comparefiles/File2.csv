@@ -1,0 +1,19 @@
+Scenario,Test Case,lat,lon,apikey,postalcode,Returncode
+latlon,Positive scenario of equivalence partitioning - 2 digit input,90.5,80.8,750d998f5ef1468bb03b74ab5881c211,,200
+latlon,Positive scenario of equivalence partitioning - 3 digit input,179,89.9,750d998f5ef1468bb03b74ab5881c211,,200
+latlon,Positive boundary values,180,90,750d998f5ef1468bb03b74ab5881c211,,400
+latlon,Negative values in boundary value ,-180,-90,750d998f5ef1468bb03b74ab5881c211,,200
+latlon,Values outside the boundary,-181,-91,750d998f5ef1468bb03b74ab5881c211,,200
+latlon,Blank Logitude,75.22, ,750d998f5ef1468bb03b74ab5881c211,,200
+latlon,Blank Lattitide, ,-40.67,750d998f5ef1468bb03b74ab5881c211,,200
+latlon,Invalid Key,-120,35,750d998f5ef1468bb03b74ab5881c211,,200
+latlon,Blank Key,140,-75,750d998f5ef1468bb03b74ab5881c211,,200
+latlon,2 decimal places,10.25,77.45,750d998f5ef1468bb03b74ab5881c211,,200
+latlon,4 Decimal places,45.1234,55.1234,750d998f5ef1468bb03b74ab5881c211,,200
+post,Valid post code - within USA,,,750d998f5ef1468bb03b74ab5881c211,35959,200
+post,Invalid post code - Outside USA,,,750d998f5ef1468bb03b74ab5881c211,19999,200
+post,Invalid key,,,750d998f5ef1468bb03b74ab5881c211,37650,200
+post,Boundary - Invalid length,,,750d998f5ef1468bb03b74ab5881c211,2760,400
+post,Blank postcode,,,750d998f5ef1468bb03b74ab5881c211,,200
+post,Alphanumeric values in postcode,,,750d998f5ef1468bb03b74ab5881c211,1000A,200
+post,Special characters in postcode,,,750d998f5ef1468bb03b74ab5881c211,900&0,200
