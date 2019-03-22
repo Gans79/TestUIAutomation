@@ -1,0 +1,10 @@
+C:\Users\Ganesh\source\repos\TestUIAutomation\Comparefiles\bin\Debug\Comparefiles.pdb
+C:\Users\Ganesh\source\repos\TestUIAutomation\Comparefiles\bin\Debug\nunit.framework.dll
+C:\Users\Ganesh\source\repos\TestUIAutomation\Comparefiles\bin\Debug\nunit.framework.xml
+C:\Users\Ganesh\source\repos\TestUIAutomation\Comparefiles\obj\Debug\Comparefiles.csprojAssemblyReference.cache
+C:\Users\Ganesh\source\repos\TestUIAutomation\Comparefiles\obj\Debug\Comparefiles.csproj.CoreCompileInputs.cache
+C:\Users\Ganesh\source\repos\TestUIAutomation\Comparefiles\obj\Debug\Comparefiles.csproj.CopyComplete
+C:\Users\Ganesh\source\repos\TestUIAutomation\Comparefiles\obj\Debug\Comparefiles.pdb
+C:\Users\Ganesh\source\repos\TestUIAutomation\Comparefiles\bin\Debug\Comparefiles.dll.config
+C:\Users\Ganesh\source\repos\TestUIAutomation\Comparefiles\bin\Debug\Comparefiles.dll
+C:\Users\Ganesh\source\repos\TestUIAutomation\Comparefiles\obj\Debug\Comparefiles.dll

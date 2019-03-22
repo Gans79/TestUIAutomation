@@ -17,7 +17,7 @@ And click on Hotels icon
 And input 'hotel' and 'xxxxxxxx' and '10/04/2019' and search
 Then i should see a error on the screen
 
-Scenario: I want to book hotels with invalid startdates returns error 
+Scenario: I want to book hotels with invalid enddates returns error 
 When i login using 'user@phptravels.com' and 'demouser' 
 And click on Hotels icon 
 And input 'hotel' and '30/03/2019' and 'xxxxxx' and search
